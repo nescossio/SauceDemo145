@@ -1,0 +1,22 @@
+1) Modos de execução do Playwright:
+
+- Headless (padrão): sem exibição
+--> Não tem interferência do usuário
+--> Mais leve
+
+- Headed: com exibição 
+
+2) Melhores localizadores em ordem de melhores práticas (2025):
+
+- data-test
+- id
+- name
+- cssSelector
+- class ou tag
+- xPath
+
+3) Fatores comuns de erros em automação:
+
+- Seletor ruim
+- Falta de sincronismo
+- "Progração exótica" ou incomum
