@@ -7,8 +7,8 @@ const { test, expect } = require('@playwright/test')
 // - Síncrona: simultâneo.
 // - Assíncrona: separados. 
 test('Realizar o fluxo de compra da mochila', async({page}) => {
-    await page.goto('https://www.saucedemo.com/') // Acessa a página
-    await expect(page).toHaveURL('https://www.saucedemo.com/') // Valida a URL
+    await page.goto('/') // Acessa a página
+    await expect(page).toHaveURL('/') // Valida a URL
     const botao_login = page.locator('#login-button') // Localiza o botão de login
     await expect(botao_login).toHaveText('Login') // Verifica se o texto do botão é "Login"
 
